@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
+  <!-- Gold border background -->
+  <rect width="100" height="100" fill="#C9A84C" rx="14"/>
+  <!-- White inner area -->
+  <rect x="5" y="5" width="90" height="90" fill="white" rx="10"/>
+  <!-- CC logo -->
+  <image href="images/logo.png" x="10" y="10" width="80" height="80"/>
+</svg>
