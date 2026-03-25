@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ryanfo13-max.github.io/columbia-collectibles/sitemap.xml
