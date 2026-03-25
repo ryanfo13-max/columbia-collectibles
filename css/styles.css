@@ -221,9 +221,11 @@ button {
 }
 
 .nav__logo img {
-  height: 40px;
+  height: 36px;
   width: auto;
-  filter: brightness(0) invert(1);
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 6px;
+  padding: 3px;
 }
 
 .nav__wordmark {
@@ -657,17 +659,17 @@ button {
    ---------------------------------------------------------- */
 .buy-section {
   background: var(--navy);
-  overflow: hidden;
+  padding: var(--sp-3xl) 0;
 }
 
-.buy-section__inner {
+.buy-section__grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  min-height: 600px;
+  gap: var(--sp-2xl);
+  align-items: center;
 }
 
 .buy-section__left {
-  padding: var(--sp-3xl) var(--sp-2xl) var(--sp-3xl) 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -690,12 +692,12 @@ button {
   color: rgba(255,255,255,0.68);
   line-height: 1.75;
   margin-bottom: var(--sp-xl);
-  max-width: 440px;
 }
 
 .buy-section__right {
   background: var(--cream);
-  padding: var(--sp-3xl) 0 var(--sp-3xl) var(--sp-2xl);
+  border-radius: var(--r-md);
+  padding: var(--sp-xl) var(--sp-lg);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1027,8 +1029,9 @@ button {
 .footer__brand-logo img {
   height: 36px;
   width: auto;
-  filter: brightness(0) invert(1);
-  opacity: 0.85;
+  background: rgba(255, 255, 255, 0.88);
+  border-radius: 5px;
+  padding: 3px;
 }
 
 .footer__brand-name {
@@ -1285,16 +1288,8 @@ button {
     margin: 0 auto;
   }
 
-  .buy-section__inner {
+  .buy-section__grid {
     grid-template-columns: 1fr;
-  }
-
-  .buy-section__left {
-    padding: var(--sp-2xl) var(--sp-sm);
-  }
-
-  .buy-section__right {
-    padding: var(--sp-2xl) var(--sp-sm);
   }
 
   .hours-section__grid {
